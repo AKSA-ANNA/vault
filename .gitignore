@@ -1,0 +1,13 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local development files
+.env

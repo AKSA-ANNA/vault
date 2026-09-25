@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyVault</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 MyVault</h1>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔍 Search files..."
+        >
+    </header>
+
+
+    <main>
+
+        <section class="toolbar">
+
+            <button id="newFolder">
+                📁 New Folder
+            </button>
+
+            <button id="addFile">
+                📄 Add File
+            </button>
+
+        </section>
+
+
+        <section id="content">
+
+            <h2>My Files</h2>
+
+            <div id="fileContainer">
+                <!-- Files and folders will appear here -->
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
